@@ -37,4 +37,9 @@ int main(){
 		for (j=3;j<4;j++) {	n=ac[i][j]; h4=n/mc4; cout<<h4<<" | "; }
 		for (j=4;j<5;j++) { n=ac[i][j]; h5=n/mc5; cout<<h5<<" | "; }
 		cout<<endl;
-	}}
+	}
+	
+	cout<<endl<<"BOBOT W : "<<endl;
+		for (j=0;j<5;j++) {
+			cout<<w[j]<<" | ";			
+}}

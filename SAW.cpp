@@ -42,4 +42,15 @@ int main(){
 	cout<<endl<<"BOBOT W : "<<endl;
 		for (j=0;j<5;j++) {
 			cout<<w[j]<<" | ";			
+}
+	cout<<endl;
+	
+	cout<<endl<<"MATRIKS R * W : "<<endl;
+	for(i=0;i<3;i++){
+		for (j=0;j<1;j++) { b=w[j]; n=ac[i][j]; h1=n/mc1; hasilkali=h1*b; cout<<hasilkali<<" | "; }
+		for (j=1;j<2;j++) { b=w[j]; n=ac[i][j]; h2=n/mc2; hasilkali=h2*b; cout<<hasilkali<<" | "; }
+		for (j=2;j<3;j++) { b=w[j]; n=ac[i][j]; h3=n/mc3; hasilkali=h3*b; cout<<hasilkali<<" | "; }
+		for (j=3;j<4;j++) { b=w[j]; n=ac[i][j]; h4=n/mc4; hasilkali=h4*b; cout<<hasilkali<<" | "; }
+		for (j=4;j<5;j++) { b=w[j]; n=ac[i][j]; h5=n/mc5; hasilkali=h5*b; cout<<hasilkali<<" | "; }
+		cout<<endl;
 }}

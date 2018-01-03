@@ -28,4 +28,13 @@ int main(){
 		}
 		cout<<endl;
 	}
-}
+	
+	cout<<endl<<"MATRIKS R : "<<endl;
+	for(i=0;i<3;i++){
+		for (j=0;j<1;j++) { n=ac[i][j]; h1=n/mc1; cout<<h1<<" | "; }
+		for (j=1;j<2;j++) {	n=ac[i][j]; h2=n/mc2; cout<<h2<<" | "; }
+		for (j=2;j<3;j++) { n=ac[i][j]; h3=n/mc3; cout<<h3<<" | "; }
+		for (j=3;j<4;j++) {	n=ac[i][j]; h4=n/mc4; cout<<h4<<" | "; }
+		for (j=4;j<5;j++) { n=ac[i][j]; h5=n/mc5; cout<<h5<<" | "; }
+		cout<<endl;
+	}}
